@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Python egg info
+*.egg-info/
+
+# Cache and logs
+*.log
+*.cache
+*.pkl
+*.db
+
+# Ignore your model file
+model.json
+
+# Ignore all .py files except app.py
+*.py
+!app.py
